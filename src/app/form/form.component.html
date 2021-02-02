@@ -1,0 +1,87 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container register-form" style="padding-top: 30px;">
+            <div class="form">
+                <div class="note">
+                    <p>This is a Student Registration Form.</p>
+                </div>
+
+                <div class="form-content">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Student Name" value=""/>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Father Name" value=""/>
+                            </div>
+                            <div class="form-group">
+                                <input type="date" id="birthday" class="form-control" name="birthday">
+                            </div>
+                            <div class="form-group">
+                                <div class="maxl" >
+                                    <label class="radio inline"> 
+                                        <input type="radio" name="gender" value="male" checked>
+                                        <span> Male </span> 
+                                    </label> &nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label class="radio inline"> 
+                                        <input type="radio" name="gender" value="female">
+                                        <span>Female </span> 
+                                    </label>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-6">
+                            <div class="avatar-upload">
+                                <div class="avatar-edit">
+                                    <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                                    <label for="imageUpload"></label>
+                                </div>
+                                <div class="avatar-preview">
+                                    <div id="imagePreview" style="background-image: url(http://i.pravatar.cc/500?img=7);">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <select class="form-control">
+                                    <option class="hidden"  selected disabled>Course Applied</option>
+                                    <option>CS</option>
+                                    <option>ME</option>
+                                    <option>EC</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Mobile Number" value=""/>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Email id" value=""/>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-6">
+                            <textarea type="text" class="form-control" placeholder="Address" value="" cols="40" rows="5" ></textarea>
+                            <br/>
+
+                             
+                        </div>
+                    </div>
+                    <button type="button" class="btnSubmit">Submit</button>&nbsp;&nbsp;&nbsp;
+                    <button  class="btnSubmit" type="reset" value="Reset" style="background-color: red">Reset</button>
+
+                   
+                </div>
+            </div>
+        </div>

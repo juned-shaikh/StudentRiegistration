@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "StudentRegistration"
+  "defaultProject": "StudentRegistration",
+  "cli": {
+    "analytics": "5ad663dc-509a-42c5-ac5a-bfa746f59bba"
+  }
 }
